@@ -1,7 +1,7 @@
 Extraction and Preprocessing:
 
 Data Extraction:
-I utilized the requests library to make HTTP requests to the URLs of the two news websites. Then, leveraging the BeautifulSoup library, I parsed the HTML content of the web pages and extracted relevant information. Specifically, I targeted the titles and descriptions of articles by identifying the appropriate HTML tags (<h2> for titles and <p> for descriptions) using BeautifulSoup's find_all method.
+I utilized the requests library to make HTTP requests to the URLs of the two news websites. Then, leveraging the BeautifulSoup library, I parsed the HTML content of the web pages and extracted relevant information. Specifically, I targeted the titles and descriptions of articles by identifying the appropriate HTML tags (h2 for titles and p for descriptions) using BeautifulSoup's find_all method.
 Data Preprocessing:
 Following the extraction of article titles and descriptions, I engaged in text preprocessing to ensure the cleanliness and standardization of the text data. This involved several key steps:
 •	Converting all text to lowercase to ensure consistency.
